@@ -1,6 +1,7 @@
 # NBA Game Outcome Prediction Model
 
-This project builds a machine learning model to predict NBA game outcomes using Elo ratings and home court advantage.
+This project predicts NBA game outcomes using Elo ratings and contextual features.
+The model achieves ~68% accuracy, outperforming a simple Elo baseline (~64%), and provides insight into when predictive models succeed and fail in sports analytics.
 
 ## Dataset
 NBA Elo dataset from FiveThirtyEight.
@@ -12,7 +13,7 @@ NBA Elo dataset from FiveThirtyEight.
 - Season
 
 ## Model
-Logistic Regression
+Logistic Regression was used for its interpretability and ability to estimate win probabilities.
 
 ## Results
 Test Accuracy: ~68%
@@ -25,9 +26,10 @@ The model outperforms a simple Elo baseline (~64%).
 - Accuracy by Elo difference
 
 ## Key Insights
-- Large Elo differences lead to ~91% prediction accuracy
-- Evenly matched teams drop to ~63% accuracy
-- Elo alone cannot capture factors like injuries, lineup matchups, or shooting variance
+- Model performance improves significantly when there is a large Elo difference between teams
+- Prediction accuracy drops for evenly matched teams
+- Home court advantage meaningfully increases win probability
+- Elo ratings are strong predictors, but miss important context like injuries and player-level data
 
 ## Future Improvements
 - Player level metrics
@@ -35,3 +37,7 @@ The model outperforms a simple Elo baseline (~64%).
 - Rest days
 - Advanced team efficiency metrics
 - XGBoost / Random Forest models
+
+## Why This Matters
+
+This project demonstrates how simple models can perform well in sports prediction tasks, while also highlighting the limitations of relying only on team-level metrics like Elo ratings.
