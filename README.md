@@ -6,6 +6,14 @@ The model achieves ~68% accuracy, outperforming a simple Elo baseline (~64%), an
 ## Dataset
 NBA Elo dataset from FiveThirtyEight.
 
+## Technologies Used
+- Python
+- pandas
+- NumPy
+- scikit-learn
+- matplotlib
+- Jupyter Notebook
+
 ## Features
 - Team Elo rating
 - Opponent Elo rating
