@@ -25,6 +25,8 @@ The model outperforms a simple Elo baseline (~64%).
 - Win probability vs Elo difference
 - Model calibration curve
 - Accuracy by Elo difference
+<img width="779" height="431" alt="image" src="https://github.com/user-attachments/assets/a8d16311-5d32-48b3-8588-7eb362236b05" />
+
 
 ## Key Insights
 - Model performance improves significantly when there is a large Elo difference between teams
