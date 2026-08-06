@@ -19,6 +19,7 @@ Logistic Regression was used for its interpretability and ability to estimate wi
 Test Accuracy: ~68%
 
 The model outperforms a simple Elo baseline (~64%).
+<img width="817" height="428" alt="image" src="https://github.com/user-attachments/assets/974705d5-0826-4030-a47f-b7bd2c1a6a2d" />
 
 ## Visualizations
 - Win probability vs Elo difference
